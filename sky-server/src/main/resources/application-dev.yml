@@ -1,0 +1,19 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 30306
+    database: sky_take_out
+    username: ''         # 替换为空字符串
+    password: ''         # 替换为空字符串
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: ''     # 替换为空字符串
+    access-key-secret: '' # 替换为空字符串
+    bucket-name: big-event-danyhug
+  redis:
+    host: localhost
+    port: 6379
+  wechat:
+    app-id: ''           # 替换为空字符串
+    app-secret: ''       # 替换为空字符串
